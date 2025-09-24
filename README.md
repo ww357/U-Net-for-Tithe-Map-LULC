@@ -18,7 +18,7 @@ Land cover patch vectorisation:
   - *I need to make BATCH_SIZE scale relative to the number of input patches (maybe make BATCH_SIZE = (total input patches / 10))
 -  run `\post-processing\full-map-from-patches.ipynb` to stitch the patches into a full map prediction image and spatially project it using metadata from the reference map  
   - *change stitching patches into full maps.ipynb to this name*
-- Using GRASS GIS processes (can be done more easily in QGIS with '' plug-in installed and activated) run the following tools to convert the binary raster prediction mask image into a set of vectorised polylines
+- Using GRASS GIS processes (can be done more easily in QGIS with 'GRASS GIS provider' plug-in installed and activated) run the following tools to convert the binary raster prediction mask image into a set of vectorised polylines
   - r.mapcalc.simple
   	- if(A>0,1,null())
   	- input: {...}stitched_mask
