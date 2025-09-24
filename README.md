@@ -39,7 +39,7 @@ Land cover patch vectorisation:
 - Run vector-to-vector polygonisation to produce land cover patches.
 
 
-Built on Ran and colleagues (2022) improved U-Net model for segmenting line elements from historic map documents.
+Built on Ran and colleagues (2022) improved U-Net model for segmenting line elements from historic map documents. <br>
 Paper Citation: Ran, W. et al. (2022) ‘Raster Map Line Element Extraction Method Based on Improved U-Net Network’, ISPRS International Journal of Geo-Information, 11(8), p. 439. Available at: https://doi.org/10.3390/ijgi11080439.
 Link to GitHub: [Raster-Map](https://github.com/FutureuserR/Raster-Map)
 
